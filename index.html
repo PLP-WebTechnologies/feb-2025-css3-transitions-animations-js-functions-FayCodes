@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nutrition Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Nutrition Preferences</h1>
+
+  <label for="meal">Favorite Healthy Meal:</label>
+  <input type="text" id="meal" placeholder="e.g., Grilled chicken salad"/><br/>
+
+  <label for="drink">Preferred Drink:</label>
+  <select id="drink">
+    <option value="Water">Water</option>
+    <option value="Green Tea">Green Tea</option>
+    <option value="Smoothie">Smoothie</option>
+  </select><br/>
+
+  <button id="saveBtn">Save Preferences</button>
+  <p id="confirmation">Preferences Saved!</p>
+  <p id="storedData"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

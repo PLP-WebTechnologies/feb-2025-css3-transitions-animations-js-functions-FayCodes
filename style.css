@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3fff3;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #2c7a2c;
+    transition: color 0.5s ease;
+  }
+  
+  h1:hover {
+    color: #45a049;
+  }
+  
+  input, select, button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  #saveBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #saveBtn:hover {
+    background-color: #45a049;
+  }
+  
+  /* CSS Animation */
+  #confirmation {
+    display: none;
+    font-weight: bold;
+    color: green;
+    animation: fadeIn 1s forwards;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .animated {
+    animation: pop 0.6s ease-out;
+  }
+  
+  @keyframes pop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+  
+
